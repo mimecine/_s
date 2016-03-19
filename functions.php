@@ -146,6 +146,12 @@ require get_template_directory() . '/inc/extras.php';
  */
 require get_template_directory() . '/inc/include-kirki.php';
 
+/**
+ * Load the Kirki Fallback class
+ */
+require get_template_directory() . '/inc/kirki-fallback.php';
+
+/**
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
