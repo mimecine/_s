@@ -38,8 +38,8 @@ if ( ! class_exists( 'Kirki' ) ) {
 					<iframe id="kirki-customizer-installer" src="<?php echo admin_url( 'plugin-install.php?tab=plugin-information&amp;plugin=kirki' ); ?>"></iframe>
 				<?php else : ?>
 					<style>
-	                    li#accordion-section-kirki_installer .description { display: none; }
-                    </style>
+						li#accordion-section-kirki_installer .description { display: none; }
+                    			</style>
 					<p><?php printf( __( 'The Kirki Toolkit plugin is installed but not activated. Please <strong><a href="%s">activate it</a></strong> in order to take full advantage of the theme\'s options.', '_s' ), admin_url( 'plugins.php' ) ); ?></p>
 				<?php endif;
 			}
